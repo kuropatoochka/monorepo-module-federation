@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "noImplicitAny": true,
-    "module": "ESNext",
-    "target": "es5",
+    "module": "CommonJS",
+    "target": "ES6",
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",

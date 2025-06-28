@@ -1,9 +1,11 @@
 {
   "name": "monorepo-module-federation",
   "version": "1.0.0",
-  "main": "index.js",
   "workspaces": [
     "packages/*",
     "services/*"
-  ]
+  ],
+  "devDependencies": {
+    "@testing-library/user-event": "^14.6.1"
+  }
 }
